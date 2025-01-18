@@ -1,0 +1,6 @@
+#!/bin/bash
+folder_path="$1"
+xattr -r -d com.apple.quarantine "$1"
+if [ $? -eq 0 ]; then
+	echo "Command ran successfully! You should be able to launch Unity after you've generated your soundbanks. If not, please check that you have selected the same folder that you added into the Unity Hub. Otherwise, please send me a Discord Message."
+fi
