@@ -1,6 +1,6 @@
 I wanted to make a much easier way to fix WWise in Unity on MacOS. It is super annoying to keep running that command every single time you download a new project from the internet, so I made an applet that does that with a GUI. 
 
-All it does is runs an xattr on the directory that you select using the finder GUI instead of having to open terminal and drag your directory into terminal
+All it does is runs an xattr on the directory that you select using the finder GUI instead of having to open terminal and drag your directory into terminal.
 
 All I did is port the shell code to be an applet with a tool called Platypus. After tons of troubleshooting, I managed to make it compile and run a variant of the xattr command that would work in that applet compiled setting.
 
